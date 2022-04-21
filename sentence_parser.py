@@ -10,7 +10,7 @@ from memoryGraph_scifi import MemoryGraph
 # import nltk
 # nltk.download('omw-1.4')
 
-pick = open("data/names-percentage.pkl", 'rb')  # US census data
+pick = open("names-percentage.pkl", 'rb')  # US census data
 gender_list = pickle.load(pick)  # gender_list[name] = set(genders)
 pick.close()
 del (pick)
