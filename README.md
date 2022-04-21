@@ -1,5 +1,5 @@
 # __Sentence2Event__
- __Simple story sentence-level  parser with memory poperty__ 
+ __Simple story sentence-event converter with memory poperty__ 
  
  Read sentence iteratively from a story and better parse it into 5 elements event (subject, verb, noun, modifier, prepositions) by storing information before each sentence.
  
