@@ -116,7 +116,7 @@ verbnet = nltk.corpus.VerbnetCorpusReader('./tools/v3.3',
                                            'want-32.1.xml', 'weather-57.xml', 'weekend-56.xml', 'wink-40.3.1.xml',
                                            'wipe_instr-10.4.2.xml', 'wipe_manner-10.4.1.xml', 'wish-62.xml',
                                            'withdraw-82.xml', 'work-73.2.xml'])
-ner_loc = "./tools/stanford/stanford-ner-2020-11-17"
+ner_loc = "./tools/stanford/stanford-ner-2016-10-31"
 stanford_dir = "./tools/stanford/stanford-corenlp-full-2016-10-31"
 models = "./tools/stanford/stanford-corenlp-full-2016-10-31-models"
 NER = {}
