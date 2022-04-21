@@ -34,8 +34,8 @@ class MemoryGraph:
 		self.NE_gender = defaultdict(str)
 		self.NEnums = bidict()
 
-		NER_file = []#[x.split(";") for x in open("data/scifiNER.txt", 'r').readlines()]
-		NER_dict = {}#{k.strip(): ("<MISC>" if v.strip()=="O" else "<"+v.strip()+">") for k,v in NER_file} #entity: tag
+		NER_file = []
+		NER_dict = {}
 		self.rev_NER_dict = defaultdict(set) #tag: set(entities)
 		for key, value in NER_dict.items():
 			self.rev_NER_dict[value].add(key.title())
