@@ -6,7 +6,7 @@
  Inspired by [Event-to-Sentence Ensemble](https://github.com/rajammanabrolu/StoryRealization/tree/c01253d42d88783ea5899c68134f442d00b65183)
 ## __Requirement__
 
-Download these files and put it in the **data** folder
+Download these files and put it in the **tool** folder
 
 [Stanford NLP NER parser 3.7.0](https://nlp.stanford.edu/software/stanford-ner-2016-10-31.zip)
 
